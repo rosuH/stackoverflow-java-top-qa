@@ -1,34 +1,47 @@
 
-stackoverflow-Java-top-qa
-=======================
-    对stackoverflow上Java相关、投票数TOP100的问答进行翻译，欢迎点star，我们会持续更新!!!
+# stackoverflow-Java-top-qa
 
-    为了让“翻译”更有意义，给阅读者带来更多、更有效的收获，我们会有一些加工：
-    例如，对问题进行分类，整合多个答案、删除冗余内容、加上自己的验证结果、心得等等
-    
-    对于参与翻译的人，这也是很好的一个学习、理解过程，欢迎大家一起来翻译
+> 对stackoverflow上Java相关、投票数TOP100的问答进行翻译，欢迎点star，我们会持续更新!!!
+为了让“翻译”更有意义，给阅读者带来更多、更有效的收获，我们会有一些加工：
+例如，对问题进行分类，整合多个答案、删除冗余内容、加上自己的验证结果、心得等等
+对于参与翻译的人，这也是很好的一个学习、理解过程，欢迎大家一起来翻译
+
+# Fork 版声明
+
+原仓库作者看起来已经不再维护了，所以 fork 后我自己维护一个版本。不定期更新。
 
 -------------
-### 如何参与翻译（欢迎加入翻译组QQ群485011036）
-####如何参与：
+# 如何参与翻译
+
+## 如何参与：
+
 - 请从下文“待翻译问题链接”中寻找你感兴趣的问答进行翻译。翻译好的问答，放到contents目录下，无需更新readme.md文档。之后提一个PR，我负责合并PR并更新到readme中。
 - 另外，为了避免多人重复新翻译一个问题，你可以提issue，说明你计划翻译的问题及时间点，我可以先更新到下面的”未翻译问题“中，说明已有人领了这个问题。当然，也不一定要提issue，一般情况下，只要及时提pr，我及时审核，出现”撞车“的概率并不高。
 
-####一些基本的约定：
+## 一些基本的约定：
+
 - 文档的文件名，和stackoverflowhich-notnull-java-annotation-should-i-usew上的url保持一致。例如，http://stackoverflow.com/questions/8710619/java-operator 的文件名， 就是java-operator.md
 - 在每篇翻译文档内容的最后，要附上stackoverflow的原文链接
 
-####每个人可以做（但不限于）：
+## 格式问题
+
+- 请尽量阅读完 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
+- 贡献的文件应使用 Markdown 书写
+- 在 GitHub Preview 下有正确的显示格式
+
+## 每个人可以做（但不限于）：
+
 - 找未翻译的问题进行翻译
 - 优化已翻译的问题
 - 输出问答精简汇总版（把所有的问答集中到一个md文件，然后尽量精简，让别人可以在一天内把这100个问题的精髓都看完）
 - 输出gitbook版本（现在直接在github上查看，体验不好）
 
-####文档优化反馈：
+## 文档优化反馈：
 请大家多多反馈，优化已翻译好的文章：可以到[吐槽区](https://github.com/giantray/stackoverflow-java-top-qa/issues/66)吐槽，也可以在已翻译文章基础上进行优化，提新的PR。文章质量的提升，需要大家一起努力！
 
 
-### 目录
+# 目录
+
 > 基础语法
 
 * [Java += 操作符实质](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/java-operator.md)
